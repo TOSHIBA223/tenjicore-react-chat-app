@@ -1,0 +1,53 @@
+html, body {
+    height: 100%;
+}
+body {
+  margin: 0;
+  text-align: center;
+  top: 0px !important;
+}
+
+.container2 {
+  padding-top: 30px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.skiptranslate {
+  display: none;
+}
+#google_translate_element .skiptranslate {
+  display: block;
+}
+.skiptranslate span {
+  display: none;
+}
+
+#google_translate_element div {
+  color: white !important;
+}
+
+
+/* Select option */
+
+select {
+  width: 200px;
+  height: 46px;
+  font-size: 16px !important;
+  border-radius: 5px;
+  padding: 10px;
+  z-index: 2;
+  background-color: #2196F3;
+  color: #fff !important;
+}
+
+.my-own-setting {
+  position: fixed;
+  left: 10px;
+  top: 10px;
+}
+
+.ant-message {
+  z-index: 11000;
+}

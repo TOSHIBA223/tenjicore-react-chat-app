@@ -1,0 +1,114 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\MongoDB\Server\5.0\bin\;C:\xampp\php\;C:\composer;C:\Program Files (x86)\Yarn\bin\;C:\Users\PHILIPS\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Git\cmd;D:\flutter_sdk\bin\;C:\curl\;C:\Program Files\PuTTY\;C:\Users\PHILIPS\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\PHILIPS\AppData\Local\Programs\Python\Python310\;C:\Users\PHILIPS\AppData\Local\Microsoft\WindowsApps;C:\Users\PHILIPS\AppData\Local\Programs\Microsoft VS Code\bin;C:\xampp\php;C:\Users\PHILIPS\composer;C:\Users\PHILIPS\AppData\Roaming\Composer\vendor\bin;C:\Users\PHILIPS\AppData\Local\Yarn\bin;C:\Users\PHILIPS\AppData\Roaming\npm;C:\Users\PHILIPS\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\PHILIPS\AppData\Local\GitHubDesktop\bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.22.9
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@material-ui/icons/-/icons-4.11.2.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141376:19)
+      at Object.onceWrapper (events.js:420:28)
+      at ClientRequest.emit (events.js:314:20)
+      at TLSSocket.emitRequestTimeout (_http_client.js:715:9)
+      at Object.onceWrapper (events.js:420:28)
+      at TLSSocket.emit (events.js:326:22)
+      at TLSSocket.Socket._onTimeout (net.js:483:8)
+      at listOnTimeout (internal/timers.js:554:17)
+      at processTimers (internal/timers.js:497:7)
+
+npm manifest: 
+  {
+    "name": "video",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@material-ui/core": "^4.11.0",
+      "@material-ui/icons": "^4.9.1",
+      "@testing-library/jest-dom": "^4.2.4",
+      "@testing-library/react": "^9.3.2",
+      "@testing-library/user-event": "^7.1.2",
+      "antd": "^4.1.4",
+      "axios": "^0.20.0",
+      "base64url": "^3.0.1",
+      "bootstrap": "^4.4.1",
+      "concurrently": "^5.1.0",
+      "cors": "^2.8.5",
+      "cross-env": "^7.0.2",
+      "crypto": "^1.0.1",
+      "express": "^4.17.1",
+      "faker": "^4.1.0",
+      "jquery": "^3.5.1",
+      "material-table": "^1.69.0",
+      "material-ui": "^0.20.2",
+      "mssql": "^6.2.2",
+      "mui-datatables": "^3.4.1",
+      "multer": "^1.4.2",
+      "mysql": "^2.18.1",
+      "nodemon": "^2.0.4",
+      "pg": "^8.3.3",
+      "postgres-queries": "^0.2.1",
+      "react": "^16.13.1",
+      "react-bootstrap": "^1.0.0",
+      "react-burger-menu": "^2.7.1",
+      "react-css-grid": "^2.0.0-0",
+      "react-dom": "^16.13.1",
+      "react-flexbox-grid": "^2.1.2",
+      "react-flexy-table": "^1.0.6",
+      "react-grid-layout": "^0.18.3",
+      "react-grid-system": "^6.3.0",
+      "react-native": "^0.62.1",
+      "react-router": "^5.1.2",
+      "react-router-dom": "^5.1.2",
+      "react-scripts": "3.4.1",
+      "react-select": "^3.1.0",
+      "reactstrap": "^8.4.1",
+      "request": "^2.88.2",
+      "sequelize": "^6.3.5",
+      "socket.io": "^2.3.0",
+      "socket.io-client": "^2.3.0",
+      "standard": "^14.3.3"
+    },
+    "scripts": {
+      "dev": "concurrently -n 'server,client' -c 'red,green'  \"nodemon app.js\" \"cross-env NODE_ENV=dev cross-env PORT=8000 react-scripts start\"",
+      "server": "cross-env NODE_ENV=production nodemon app.js",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "start": "react-scripts start",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "devDependencies": {
+      "@iconify/icons-la": "^1.0.0",
+      "@iconify/icons-whh": "^1.0.3",
+      "@iconify/react": "^1.1.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
